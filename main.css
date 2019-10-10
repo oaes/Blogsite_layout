@@ -1,0 +1,107 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: monospace;
+    font-size: 17px;
+    line-height: 1.2;
+}
+#showcase{
+    background-image: url('./img/01.jpg');
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    background-size: cover;
+    align-items: center;
+    height: 100vh;
+    text-align: center;
+    padding: 10px 20px;
+    justify-content: center;
+}
+#showcase h2{
+    font-size: 3rem;
+    text-align: center;
+}
+#showcase p{
+    font-size: 15px;
+    color: whitesmoke;
+    font-weight: 300;
+}
+#showcase .button{
+    text-decoration: none;
+    margin-top: 10px;
+    border: 2px solid black;
+    color: aliceblue;
+    padding: 8px 10px;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+#showcase .button:hover{
+    background: #000;
+    color: whitesmoke;
+}
+#menu{
+    display: inline-block;
+    width: 100%;
+    height: 40px;
+    background: #000;
+}
+#menu ul li{
+    margin-top: 10px;
+}
+#menu ul li a{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    padding-left: 150px;
+}
+#menu ul li a:hover{
+    background: rgb(97, 96, 96);
+    color: antiquewhite;
+}
+.left-col{
+    float: left;
+    width: 75%;
+    padding: 20px;
+
+}
+.right-col{
+    float: left;
+    width: 25%;
+    padding: 20px;
+}
+.card{
+    width:100%;
+    margin: 5px;
+    background: #aaa;
+    padding: 10px;
+    justify-content: center;
+}
+.fakeimg{
+    width: 100%;
+    margin: 5px;
+    background: #ddd;
+    padding: 10px;
+    text-align: center;
+}
+.row::after{
+    content: " ";
+    display:table;
+    clear: both;
+}
+footer{
+    height: 40px;
+    width: 100%;
+    background: #000;
+}
+footer p{
+    color: whitesmoke;
+    font-size: 18px;
+    text-align: center;
+    padding-top:10px; 
+}
